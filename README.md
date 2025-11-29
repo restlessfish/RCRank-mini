@@ -12,9 +12,12 @@ conda activate RCRank-mini
 pip install -r requirements.txt
 ```
 
-## Run
+# Run
 
 ```
 python train.py
 ```
 
+# Reference
+
+Biao Ouyang, Yingying Zhang, Hanyin Cheng, Yang Shu, Chenjuan Guo, Bin Yang, Qingsong Wen, Lunting Fan, and Christian S. Jensen. RCRank: Multimodal Ranking of Root Causes of Slow Queries in Cloud Database Systems. PVLDB, 18(4): 1169 - 1182, 2024. doi:10.14778/3717755.3717774
