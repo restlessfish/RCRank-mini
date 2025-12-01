@@ -8,12 +8,12 @@ RCRank-mini/
 │   ├── encoders.py      # Four types of modal encoders (SQL/BERT + others/neural networks)
 │   ├── fusion.py        # Cross-attention multimodal fusion (core of the paper)
 │   └── predictor.py     # Root cause sequence prediction head
-├── utils/               # tility function
+├── utils/               # Utility function
 │   ├── data_extractor.py# Automatically extract the core features of the source data (adapted to custom fields)
 │   └── metrics.py       # Kendall Tau evaluation index (ranking consistency)
 ├── train.py             # Complete training script (loading + training + demonstration)
 ├── requirements.txt     # dependence
-├── README.md          
+└── README.md          
 ```
 
 # Installation
