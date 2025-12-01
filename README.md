@@ -1,6 +1,20 @@
 # RCRank-mini
 
-This implementation is a "streamlined version" of RCRank. The core retains the overall framework of "multimodal encoding + cross-modal fusion + root cause prediction", but has been significantly simplified in terms of data processing, model complexity, and training strategies.
+```
+RCRank-mini/
+├── data/                # dataset folder
+│   └── tpc_h.csv        # dataset
+├── models/              # Core model module
+│   ├── encoders.py      # Four types of modal encoders (SQL/BERT + others/neural networks)
+│   ├── fusion.py        # Cross-attention multimodal fusion (core of the paper)
+│   └── predictor.py     # Root cause sequence prediction head
+├── utils/               # tility function
+│   ├── data_extractor.py# Automatically extract the core features of the source data (adapted to custom fields)
+│   └── metrics.py       # Kendall Tau evaluation index (ranking consistency)
+├── train.py             # Complete training script (loading + training + demonstration)
+├── requirements.txt     # dependence
+├── README.md          
+```
 
 # Installation
 
